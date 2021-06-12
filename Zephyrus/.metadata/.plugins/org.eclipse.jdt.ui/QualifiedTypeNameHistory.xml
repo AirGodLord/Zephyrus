@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+<fullyQualifiedTypeName name="me.zeph.zephyrus.listeners.AbilityListener"/>
+<fullyQualifiedTypeName name="org.bukkit.event.player.PlayerMoveEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Entity"/>
+<fullyQualifiedTypeName name="com.projectkorra.projectkorra.BendingPlayer"/>
+<fullyQualifiedTypeName name="me.zeph.zephyrus.abilities.Bison"/>
+<fullyQualifiedTypeName name="com.projectkorra.projectkorra.ability.util.MultiAbilityManager"/>
+<fullyQualifiedTypeName name="org.spigotmc.event.entity.EntityMountEvent"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+<fullyQualifiedTypeName name="org.bukkit.entity.LivingEntity"/>
+<fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="net.minecraft.server.v1_16_R3.EntityPig"/>
+<fullyQualifiedTypeName name="com.projectkorra.projectkorra.util.ParticleEffect"/>
+<fullyQualifiedTypeName name="org.bukkit.Sound"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,35 @@
+package me.zeph.zephyrus.listeners;
+
+import org.bukkit.entity.Entity;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerMoveEvent;
+
+import com.projectkorra.projectkorra.BendingPlayer;
+import com.projectkorra.projectkorra.ability.util.MultiAbilityManager;
+
+import me.zeph.zephyrus.abilities.Bison;
+
+public class AbilityListener implements Listener{
+
+	 @EventHandler
+	    public void ride(PlayerMoveEvent event) {
+	    	Player player = event.getPlayer();
+	    	if (!player.isInsideVehicle()) {
+	    		return;
+	    	}
+	    	Entity e = player.getVehicle();
+	    	e.setFallDistance(0);
+	  
+			BendingPlayer bPlayer = BendingPlayer.getBendingPlayer(player);
+
+			if (event.isCancelled() || bPlayer == null) {
+				return;
+			}
+			
+			if (!MultiAbilityManager.hasMultiAbilityBound(player)) {
+				new Bison(player, e);
+			}
+	    	
+	    }
+}

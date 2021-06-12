@@ -1,0 +1,5 @@
+package me.zeph.zephyrus.listeners;
+
+public class AbilityListener {
+
+}

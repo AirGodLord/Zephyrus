@@ -1,0 +1,8 @@
+name: Zephyrus
+version: 1.0
+api-version: 1.16
+main: me.zeph.zephyrus.Zephyrus
+depend: [ProjectKorra]
+authors: [Zeph]
+description: Improves airbending
+loadbefore: [PKConfigApi]
